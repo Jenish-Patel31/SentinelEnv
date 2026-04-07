@@ -1007,11 +1007,15 @@ name = "meta"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "openai" },
     { name = "openenv-core" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "openenv-core", specifier = ">=0.2.3" }]
+requires-dist = [
+    { name = "openai", specifier = ">=1.0.0" },
+    { name = "openenv-core", specifier = ">=0.2.3" },
+]
 
 [[package]]
 name = "more-itertools"

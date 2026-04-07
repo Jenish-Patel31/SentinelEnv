@@ -1,0 +1,42 @@
+.
+├── exports.txt
+├── inference.py
+├── main.py
+├── PLAN_final.md
+├── PLAN.md
+├── __pycache__
+│   ├── inference.cpython-312.pyc
+│   └── inference.cpython-313.pyc
+├── pyproject.toml
+├── README.md
+├── SentinelEnv
+│   ├── client.py
+│   ├── Dockerfile
+│   ├── __init__.py
+│   ├── models.py
+│   ├── openenv.yaml
+│   ├── __pycache__
+│   │   ├── client.cpython-312.pyc
+│   │   ├── client.cpython-313.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── models.cpython-312.pyc
+│   │   └── models.cpython-313.pyc
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── server
+│   │   ├── app.py
+│   │   ├── env.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── app.cpython-312.pyc
+│   │   │   ├── env.cpython-312.pyc
+│   │   │   ├── env.cpython-313.pyc
+│   │   │   └── __init__.cpython-312.pyc
+│   │   ├── requirements.txt
+│   │   └── SentinelEnv_environment.py
+│   └── uv.lock
+├── tee.txt
+└── uv.lock
+
+6 directories, 34 files
